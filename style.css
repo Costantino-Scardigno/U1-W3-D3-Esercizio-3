@@ -1,0 +1,73 @@
+ * {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://img.freepik.com/foto-premium/tuning-auto-giapponese-bosozoku-graffiti-poster-art-illustrazione-ai-generato_739548-7826.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-family: cursive;
+}
+.container {
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    box-shadow: olivedrab;
+    height: auto;
+}
+.input-container {
+    display: flex;
+    justify-content: space-between
+}
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #0d24ee;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit;
+}
+button {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #218838;
+}
+
+ul{
+    list-style-type: none;
+    padding-inline: 16px;
+}
+li {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 10px;
+    font-size: 16px;
+    font-family: inherit;
+    
+}
+
+li.completed {
+    text-decoration: line-through;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
